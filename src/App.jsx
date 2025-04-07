@@ -4,6 +4,7 @@ import Home from "./components/pages/Home.jsx"
 import About from "./components/pages/About.jsx"
 import Projects from "./components/pages/Projects.jsx"
 import Contact from "./components/pages/Contact.jsx"
+import './App.css'
 
 const App = () => {
   return (

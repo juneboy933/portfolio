@@ -27,7 +27,7 @@ const Home = () => {
     }, [charIndex, index]);
 
   return (
-    <section className="home">
+    <section className="home fade-in">
       <div className="hero">
         <h1>HI, I'm Brian O. Otieno</h1>
         <h2 className='animated-text'>{text}|</h2>
