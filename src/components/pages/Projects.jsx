@@ -14,7 +14,7 @@ const projects = [
     {
         name: "Todo App",
         description: "Simple, yet a project that really cements the basics of React. This App enables users add or delete their task/ items as well as toggle through dark and light mode as they interact with the App. It also, uses local storage idealogy to save and store data.",
-        github: "https://github.com/juneboy933/todo-App"
+        github: "https://github.com/juneboy933/Advanced-ToDo-List"
     },
 ];
 
