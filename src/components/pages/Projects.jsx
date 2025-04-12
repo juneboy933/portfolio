@@ -14,7 +14,8 @@ const projects = [
     {
         name: "Todo App",
         description: "Simple, yet a project that really cements the basics of React. This App enables users add or delete their task/ items as well as toggle through dark and light mode as they interact with the App. It also, uses local storage idealogy to save and store data.",
-        github: "https://github.com/juneboy933/Advanced-ToDo-List"
+        github: "https://github.com/juneboy933/Advanced-ToDo-List",
+        demo: "https://admirable-cuchufli-00437c.netlify.app/"
     },
 ];
 
@@ -29,6 +30,7 @@ const Projects = () => {
                     <p>{project.description}</p>
                     <div className="project-links">
                         <a href={project.github} target='_blank' rel='noopener noreferrer'>GitHub</a>
+                        <a href={project.demo} target='_blank' rel='noopener noreferrer'>Live Demo</a>
                     </div>
                 </div>
             ))}
